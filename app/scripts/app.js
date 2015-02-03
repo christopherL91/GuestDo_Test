@@ -39,4 +39,5 @@ angular
       });
       //Enable HTML5 mode.
       $locationProvider.html5Mode(true);
+      $locationProvider.hashPrefix('!');
   });
